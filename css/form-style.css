@@ -1,0 +1,62 @@
+/*=========== FORM STYLES ========================= */
+
+form {
+  text-align: left;
+}
+
+/**** Display form in two columns ****/
+.form-col {
+  display: flex;
+}
+
+.form-col-left {
+  width: 30%;
+  padding: 2%;
+}
+
+.form-col-right {
+  width: 70%;
+  padding: 2%;
+}
+
+/**** Form element styling ****/
+label {
+  font-size: 1.2rem;
+}
+
+/* Apply styles to input/textarea when they are in focus */
+input:focus,
+textarea:focus {
+  background: #d3f9ff; /* Pale Teal */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 0 0 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline-color: magenta;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 140px;
+}
+
+/* For <input type="submit"> */
+input[type=submit] {
+    width: 96%;
+    margin: 0 2% 2% 2%;
+    background-color: #5EB1BF; /* Teal */
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #007A7C; /* Dark teal */
+}
